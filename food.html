@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <main class="box">
+    <header>
+      <h1>Recipes</h1>
+    </header>
+    <form class="box">
+      <label for="keyword">Search term:</label>
+      <input type="text" id="keyword" required>
+
+      <label for="count"># of Recipes:</label>
+      <select id="count">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <span class="emptyblock"></span>
+      <button type="button">Search</button>
+    </form>
+    <footer>
+      <p>©️<span id="cYear"></span> • 🧪 Web Lab • Blazzard • BYU-Idaho CIT/WDD</p>
+    </footer>
+  </main>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/api.js"></script>
+</body>
+
+</html>

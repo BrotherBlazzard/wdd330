@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  background-color: rgba(40, 100, 177, 0.9);
+  color: rgb(255, 255, 255);
+  max-width: 550px;
+}
+
+form {
+  background-color: rgba(40, 100, 177, 0.3);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5rem;
+  align-items: center;
+}
+
+label {
+  text-align: right;
+}
+
+input,
+select,
+textarea,
+button {
+  padding: 0.45rem;
+  font-weight: 700;
+  color: rgba(40, 100, 177, 1);
+}
+
+footer {
+  font-size: smaller;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+}
+
+@media only screen and (min-width: 67em) {
+  h1 {
+    color: rgba(25, 25, 125, 1);
+  }
+}

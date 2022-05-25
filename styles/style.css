@@ -18,7 +18,11 @@ h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-main {
+h2 {
+  text-align: center;
+}
+
+.page {
   background-color: rgba(40, 100, 177, 0.9);
   color: rgb(255, 255, 255);
   max-width: 550px;
@@ -54,6 +58,22 @@ footer {
 .box {
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #fff;
+}
+
+aside {
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000;
   padding: 0.5rem;
 }
 

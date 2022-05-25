@@ -77,6 +77,15 @@ aside {
   padding: 0.5rem;
 }
 
+footer {
+  margin-top: 1rem;
+  border-top: 1px solid #fff;
+}
+
+footer p {
+  padding: 1rem;
+}
+
 @media only screen and (min-width: 67em) {
   h1 {
     color: rgba(25, 25, 125, 1);

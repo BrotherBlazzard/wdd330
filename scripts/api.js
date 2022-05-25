@@ -30,6 +30,7 @@ async function findRecipe(URL) {
 
 const displayResults = (recipes) => {
   let main = document.querySelector('main');
+  // fix this
   main.innerHTML = '';
   let aside = document.createElement('aside');
   aside.textContent = `Total Recipes: ${recipes.totalResults}`;
